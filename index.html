@@ -1,1 +1,97 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<style>
+    body {
+  background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/12/geometry-abstract-cyberspace-4k_1546278204.jpg.webp);
+}
+.razor {
+  background-color: green;
+  color: blackA;
+  border: 20px solid yellow;
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+  }
+  </style>
+<title>zuot</title>
+</head>
+<body>
+<div class="razor">
+<h1>zuot's hardcore site</h1>
+<p>so hot</p>
+</div>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="razor">
+    <h1>DISCORD AUTOMOD BYPASSER</h1>
+    <style>
+        textarea, div.box {
+            width: 45%;
+            height: 100px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+        }
 
+        textarea {
+            resize: none;
+        }
+
+        div.box {
+            background-color: #f9f9f9;
+            white-space: nowrap;
+            overflow-x: auto;
+        }
+
+        button {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        div.outputText {
+            max-height: 70px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="inputBox" onkeyup="showText()"></textarea>
+    <div class="box">
+        <div id="outputText"></div>
+        <button onclick="copyToClipboard()">Copy</button>
+    </div>
+
+    <script>
+        function showText() {
+            var input = document.getElementById('inputBox').value;
+            var transformedInput = "";
+
+            for (var i = 0; i < input.length; i++) {
+                transformedInput += input[i] + "⁥";
+            }
+
+            
+            document.getElementById('outputText').innerText = transformedInput;
+        }
+
+        function copyToClipboard() {
+            var textToCopy = document.getElementById('outputText').innerText;
+            var textArea = document.createElement('textarea');
+            textArea.value = textToCopy;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+        }
+    </script>
+    <h2>Preview</h2>
+    <img src="https://cdn.discordapp.com/attachments/818961695825199134/1154168155552370759/image.png">
+    </div>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://cdn.discordapp.com/attachments/818961695825199134/1154178890026197032/iphonead.png" alt="https://www.youtube.com/watch?v=dQw4w9WgXcQ"</a>
+</body>
+</html>
